@@ -1,7 +1,7 @@
 import PageHeader from '@/components/layout/PageHeader';
 import PageNavigation from '@/components/layout/PageNavigation';
 import PageFooter from '@/components/layout/PageFooter';
-import HotelCard from '@/components/hotel/HotelCard';
+import { HotelCard } from '@/components/hotel/HotelCard';
 import { hotelsData } from '@/data/hotels';
 import type { Hotel } from '@/types/hotel';
 
