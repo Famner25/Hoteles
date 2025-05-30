@@ -21,12 +21,10 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images, hotelName }) => {
           <Card key={index} className="overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
             <CardContent className="p-0">
               <div className="aspect-video relative w-full">
-                <Image
+                <img
                   src={image.src}
                   alt={`${hotelName} - Imagen ${index + 1}`}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-t-lg"
+                  className= "rounded-t-lg object-cover w-full h-full"
                   data-ai-hint={image.hint}
                 />
               </div>
